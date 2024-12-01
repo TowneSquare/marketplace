@@ -43,9 +43,9 @@ export const useEquipTraits = () => {
       response = await signAndSubmitTransaction({
         sender: account.address,
         data: {
-          function: `${COMPOSABLE_TOKEN_MAINNET}::${COMPOSABLE_TOKEN_ENTRY}::${EQUIP_TRAIT}`,
+          function: `${COMPOSABLE_TOKEN_MAINNET}::${COMPOSABLE_TOKEN_ENTRY}::${EQUIP_TRAITS}`,
           typeArguments: [],
-          functionArguments: [composableObject, traitObject[0], new_uri],
+          functionArguments: [composableObject, traitObject, new_uri],
         },
       });
     }

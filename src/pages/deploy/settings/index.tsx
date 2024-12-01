@@ -270,7 +270,7 @@ const Settings = () => {
               </ToolTip>
               <div
                 id="folder"
-                className="w-[240px] h-[240px] cursor-pointe flex justify-center mt-2 items-center"
+                className="w-[240px] h-[240px] cursor-pointer flex justify-center mt-2 items-center"
                 onClick={() => onFolderSelector()}
                 style={{
                   backgroundImage : 'url(/upload-ele.svg)',
